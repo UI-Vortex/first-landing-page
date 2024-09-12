@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+.item-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #12100CB2;
+}
+
+.header_button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #F9F9F9;
+
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: unset;
+    background:
+        #12100C;
+}
+
+.computer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.com-texts h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #12100C;
+    margin-bottom: 30px;
+    width: 560px;
+}
+
+.com-texts p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    width: 560px;
+    color: #12100C;
+    margin-bottom: 30px;
+}
+
+.com-buttons {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.button-1 button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #12100C;
+
+    text-align: center;
+    width: 180px;
+    padding: 10px 30px;
+    background: #FFAE33;
+    border-radius: 15px;
+    border: unset;
+}
+
+.but-images {
+    display: flex;
+    gap: 45px;
+    margin-top: 20px;
+}
+
+.button-desc p {
+    width: 190px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #12100C;
+}
+
+.com-image img {
+    object-fit: cover;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+.main-text h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #12100C;
+    margin-bottom: 10px;
+}
+
+.main-text del {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #999795;
+    margin-bottom: 10px;
+}
+
+.main-text h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #12100C;
+    margin-top: 10px;
+}
+
+.think {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 300px;
+}
+
+.think-texts h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #12100C;
+}
+
+.think-texts p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 648px;
+    font-size: 24px;
+    color: #12100C;
+    margin-bottom: 200px;
+}
+
+.think-buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.think-buttons .orange {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:
+        #12100C;
+
+    padding: 10px 30px;
+    background: #FFAE33;
+    border: unset;
+    border-radius: 15px;
+}
+
+.think-buttons .pink {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:
+        #12100C;
+
+    padding: 10px 30px;
+    background: #FFB0AE;
+    border: unset;
+    border-radius: 15px;
+}
+
+.remote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.remote h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: 47px;
+    color: #12100C;
+}
+
+.remote p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #12100C;
+    width: 877px;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 40px;
+}
+
+.remote-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.remote-buttons .button-chrome {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:
+        #12100C;
+    position: relative;
+
+    padding: 15px 50px;
+    background: #FFFFFF;
+    border: unset;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.remote-buttons .image-chrome {
+    position: absolute;
+    transform: translateX(20px);
+}
+
+.remote-buttons .button-fireFox {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:
+        #12100C;
+    position: relative;
+
+    padding: 15px 50px;
+    background: #FFFFFF;
+    border: unset;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.remote-buttons .fireFox {
+    position: absolute;
+    transform: translateX(300px);
+}
+
+.started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.started .get {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: 48px;
+    color: #12100C;
+}
+
+.started-dominant {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.started-card-1 {
+    width: 600px;
+    height: 100%;
+    background: rgb(225, 224, 224);
+    border-radius: 20px;
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.started-card-1 h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #12100C;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.started-card-1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #12100CB2;
+    margin-bottom: 64px;
+    text-align: center;
+    width: 471px;
+}
+
+.started-card-1 .gitlab {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    padding: 15px 50px;
+    background: #FFAE33;
+    border: unset;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.gitlab img {
+    position: absolute;
+    left: 0;
+    transform: translateX(12px) translateY(-5px);
+}
+
+.started-card-1 .github {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    padding: 15px 50px;
+    background: #000000;
+    border: unset;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.github img {
+    position: absolute;
+    left: 0;
+    transform: translateX(12px) translateY(-5px);
+}
+
+.started-card-1 .square {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    padding: 15px 40px;
+    background: #2684FF;
+    border: unset;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 16px;
+    margin-bottom: 64px;
+}
+
+.square img {
+    position: absolute;
+    left: 0;
+    transform: translateX(10px) translateY(-5px);
+}
+
+.started-card-1 b {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #12100CB2;
+    margin-bottom: 5px;
+}
+
+.started-card-1 a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #12100CB2;
+
+    text-decoration: none;
+
+    padding: 5px 15px;
+    background: #FFE4BC;
+    border-radius: 15px;
+}
+
+.started-card-2 {
+    width: 600px;
+    height: 625px;
+    background: rgb(225, 224, 224);
+    border-radius: 20px;
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.started-card-2 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #12100C;
+}
+
+.started-card-2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 32px;
+    color: #12100CB2;
+}
+
+.started-card-2 .node {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+    margin: 11px;
+
+    padding: 10px 30px;
+    width: 400px;
+    border-radius: 10px;
+    background: #F9F9F9;
+}
+
+.node h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #12100CB2;
+}
+
+.node button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    padding: 5px 17px;
+    background: #12100C;
+    border-radius: 10px;
+    border: unset;
+    transform: translateX(10px);
+}
+
+.node img {
+    transform: translateX(-15px);
+}
